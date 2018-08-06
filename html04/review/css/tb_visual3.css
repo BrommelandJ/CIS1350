@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Review Assignment
+   
+   Design Style Sheet for Tree and Book Family Home Page
+   Author: 
+   Date:   
+   
+   Filename: tb_visual3.css
+
+*/
+
+/* HTML Styles */
+html{
+	background-image: url(../images/tb_back5.png);
+}
+
+/* Page Body Styles */
+body{
+	border-left: solid 3px rgb(169,130,88);
+	border-right: solid 3px rgb(169,130,88);
+	box-shadow: 25px 0px 35px rgb(53,21,0), -25px 0px 35px rgb(53,21,0)
+}
+
+
+/* Main Styles */
+main{
+	background: url(../images/tb_back7.png) no-repeat;
+	background-size: cover;
+	box-shadow:inset rgb(71,71,71) -10px -10px 25px , insert rgb(71,71,71) 10px 10px 25px ;
+}
+main header h1{
+	text-shadow: rbg(221,221,221) 1px 1px 0 rgba(41,41,41,0.9) 5px 5px 20px;
+}
+
+/* Figure Box Styles */
+figure{
+	margin:10px auto;
+	width:70%;
+}
+figure img{
+	border-width:25px;
+	border-style: solid;
+	width: 100%;
+	display: block;
+	border-image: url(../images/tb_frame.png) 60 stretch;
+	filter: sepia(0.8);
+}
+	figure figcaption{
+	text-align: center;
+	padding: 10px auto;
+}
+
+/* Article Styles */
+
+article{
+	background: url(../images/tb_back6.png) bottom right / 15% no-repeat;
+	border-right: double 8px rgb(147,116,68);
+	border-bottom: double 8px rgb(147,116,68);
+	border-bottom-right-radius: 80px;
+	box-shadow: inset rgba(184,154,112,0.7) 10px -10px 25px;
+}
+
+
+/* Footer Styles */
+
